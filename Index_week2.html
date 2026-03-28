@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: linear-gradient(to right, #eef2f3, #dfe9f3);
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            color: #2c3e50;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 20px 0;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #1d6fa5;
+        }
+
+        section {
+            margin-top: 25px;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-bottom: 10px;
+        }
+
+        /* ⭐ FIXED ABOUT SECTION */
+        .about-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .about-container img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .about-container p {
+            max-width: 500px;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+        }
+
+        a {
+            color: #3498db;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #777;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header Section -->
+    <header>
+        <h1>Roseann Mae C. Vista</h1>
+        <p>BS Information Technology - Specialization in Mobile and Web Applications</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#hobbies">My Hobbies</a></li>
+            <li><a href="#websites">Favorite Websites</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Me -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <div class="about-container">
+            <img src="C:\Users\kUrO\Documents\Programs\VsCode\Vista_RoseannMae_WebSys_Week3\Image\Media.jpg" alt="Photo">
+
+            <p>
+                Hello! I'm a student currently studying Information Technology. 
+                I enjoy learning new things.
+            </p>
+        </div>
+    </section>
+
+    <!-- My Hobbies -->
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Playing video games</li>
+            <li>Watching movies</li>
+            <li>Listening to Music</li>
+            <li>Reading</li>
+        </ul>
+    </section>
+
+    <!-- Favorite Websites -->
+    <section id="websites">
+        <h2>Favorite Websites</h2>
+        <ol>
+            <li><a href="https://open.spotify.com" target="_blank">Spotify</a></li>
+            <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+            <li><a href="https://www.hoyolab.com" target="_blank">HoyoLab</a></li>
+        </ol>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: vista.roseann7890@gmail.com</p>
+        <p>Phone: 09765823147</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Roseann Mae C. Vista</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
